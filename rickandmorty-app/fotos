@@ -1,1 +1,18 @@
 https://drive.google.com/drive/folders/1pAesLAhDrfBnFhRKzk3boC2PExZxUQTO?usp=sharing
+
+
+Clona o actualiza tu repositorio desde GitHub:
+git clone https://github.com/tu-usuario-github/rickandmorty-app.git
+cd rickandmorty-app/rickandmorty-app
+
+
+
+Inicia sesión en Docker Hub (si las imágenes son privadas o requiere autenticación):
+
+docker login
+
+El comando único y definitivo para levantar todo el proyecto:
+Ejecuta el siguiente comando para descargar las imágenes y poner en marcha tanto el APl
+ Gateway como tu aplicación backend de forma desacoplada:
+
+docker-compose up -d --build
